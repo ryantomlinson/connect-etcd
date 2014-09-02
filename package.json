@@ -1,0 +1,29 @@
+{
+  "name": "connect-etcd",
+  "version": "0.0.0",
+  "description": "connect-etcd is a Etcd session store for express",
+  "main": "./index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryantomlinson/connect-etcd.git"
+  },
+  "author": "Ryan Tomlinson <tomlinsonryan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryantomlinson/connect-etcd/issues"
+  },
+  "homepage": "https://github.com/ryantomlinson/connect-etcd",
+  "dependencies": {
+    "node-etcd": "^2.1.4",
+    "express-session": "^1.7.6"
+  },
+  "devDependencies": {
+    "express-session": "*"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
